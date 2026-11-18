@@ -1,6 +1,6 @@
 {
   "name": "anubis-cookie-solver",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Obtain the Anubis (Techaro) auth cookie without a browser: native SHA-256 proof-of-work solver with multithreaded midstate hashing.",
   "main": "src/index.js",
   "bin": {
@@ -28,5 +28,14 @@
     "crawler",
     "cookie"
   ],
-  "license": "MIT"
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/havenynet/anubis-cookie-solver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/havenynet/anubis-cookie-solver/issues"
+  },
+  "homepage": "https://github.com/havenynet/anubis-cookie-solver#readme"
 }
