@@ -1,0 +1,32 @@
+{
+  "name": "anubis-cookie-solver",
+  "version": "0.1.0",
+  "description": "Obtain the Anubis (Techaro) auth cookie without a browser: native SHA-256 proof-of-work solver with multithreaded midstate hashing.",
+  "main": "src/index.js",
+  "bin": {
+    "anubis-cookie-solver": "bin/anubis-cookie-solver.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "bench": "node bench/bench.js",
+    "probe": "node bin/anubis-cookie-solver.js probe"
+  },
+  "engines": {
+    "node": ">=20.3"
+  },
+  "keywords": [
+    "anubis",
+    "techaro",
+    "proof-of-work",
+    "scraping",
+    "crawler",
+    "cookie"
+  ],
+  "license": "MIT"
+}
